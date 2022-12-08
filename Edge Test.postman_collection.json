@@ -1,0 +1,46 @@
+{
+	"id": "66ef3a3b-11b5-8c4e-85c7-5b7e2991d2db",
+	"name": "Edge Test",
+	"description": "",
+	"order": [
+		"a02efa62-c5d1-e7a5-35f8-76aaba726dbf"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1669950974998,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "a02efa62-c5d1-e7a5-35f8-76aaba726dbf",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/RestEdge/services/testEdge/actualizarComments",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "66ef3a3b-11b5-8c4e-85c7-5b7e2991d2db",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/RestEdge/services/testEdge/actualizarComments",
+			"description": "Permite probar la api POST para modificar. Se debe introducir un email y ese mismo email es seteado al objeto de respuesta. si no se envia mail, se devuelve status 500",
+			"descriptionFormat": "html",
+			"time": 1669951042165,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"postId\":\"1\",\n\t\"id\":502,\n\t\"email\":\"prueba@correo.com\"\n}"
+		}
+	]
+}
